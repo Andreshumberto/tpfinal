@@ -1,0 +1,35 @@
+.userForm{
+    display:flex;
+    flex-direction: column;
+    width:40vw;
+    gap:2vh;
+    margin:0 auto;
+    margin-top: 2vh;
+
+}
+.userForm label{
+    font-size:20px;
+    font-weight: 500;
+
+}
+.userForm input{
+    border:none;
+    border-bottom: 1px solid black;
+    font-size:18px;
+
+}
+.datoscliente{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and  (max-width:600px) {
+    .userForm input{
+        font-size:9px;
+    }
+    .userForm label{
+        font-size:10px;
+        font-weight: 300;
+    }
+}

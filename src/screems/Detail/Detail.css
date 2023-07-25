@@ -1,0 +1,53 @@
+.detalle{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.detail{
+    width:27vw;
+    height:65vh;
+    border:2px solid green;
+    padding:5px;
+    border-radius:12px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:1rem; 
+    line-height: 40%;  
+}
+.detail p{
+    line-height: 100%;
+    font-size:0.9rem;
+}
+.detail h3{
+    line-height:100% ;
+    font-size:15px;
+}
+
+@media screen and (max-width:420px){
+   .detail p {
+    font-size:0.7rem;
+    
+   }
+   .detail h3{
+    font-size:0.8rem;
+    line-height: 100%;
+   }
+   .detail h4{
+    font-size:0.8rem;
+    line-height: 100%;
+   }
+   
+   
+   
+   .detail{
+    line-height: 30%;
+    height:50vh;
+   }
+   
+
+}
