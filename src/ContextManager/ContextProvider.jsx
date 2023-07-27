@@ -5,7 +5,7 @@ const Context=createContext()
 const ContextProvider = ({children}) => {
   const productos=[
      {
-        imagen:'/public/Imagenes/imagen1.jpg',
+        imagen:'/public/imagen1.jpg',
         nombre:'Monitor Samsung 24"',
         precio:65000,
         descripcion:'Conexion DSub-hdmi-Relacion Aspecto 16:9-Apto Sist de Seguridad',
@@ -13,7 +13,7 @@ const ContextProvider = ({children}) => {
         stock:5
      },
     {
-        imagen:'/public/Imagenes/imagen4.jpg',
+        imagen:'/public/imagen4.jpg',
         nombre:'Monitor Samsung 32"',
         precio:90000,
         descripcion:'2 Entradas HDMI-2 Entradas USB-HD 4K-Ideal para Gamers',
@@ -21,7 +21,7 @@ const ContextProvider = ({children}) => {
         stock:7
      },
      {
-        imagen:'/public/Imagenes/calculadoracientifica3.jpg',
+        imagen:'/public/calculadoracientifica3.jpg',
         nombre:'Calculadora Cientifica CASIO C3478',
         precio:120000,
         descripcion:'Calculos Cientificos-Grafica Funciones-Calculo Matricial-Permite guardar funciones y constantes',
@@ -29,7 +29,7 @@ const ContextProvider = ({children}) => {
         stock:9
      },
      {
-        imagen:'/public/Imagenes/calculadoraHP.jpg',
+        imagen:'/public/calculadoraHP.jpg',
         nombre:'Calculadora Cientifica y Financiera HP 3790',
         precio:98000,
         descripcion:'Calculos Cientificos y Financieros-Grafica Funciones',
@@ -37,7 +37,7 @@ const ContextProvider = ({children}) => {
         stock:3
      },
      {
-      imagen:'/public/Imagenes/celular1.jpeg',
+      imagen:'/public/celular1.jpeg',
       nombre:'Telefono Celular SAMSUNG A22',
       precio:215000,
       descripcion:'8G RAM-128Gb memoria-Camara 50Mp-5Mp-2Mp-Procesador:Qualcomm 5M6225',
@@ -45,7 +45,7 @@ const ContextProvider = ({children}) => {
       stock:4
    },
    {
-      imagen:'/public/Imagenes/computadoraescritorio1.png',
+      imagen:'/public/computadoraescritorio1.png',
       nombre:'Computadora HP 49004',
       precio:300000,
       descripcion:'RAM 16GB-Disco Duro HDD 1Tb-Monitor 17"-Lectora CD-2Puertos USB 3.0-Puerto Ethernet',
@@ -53,7 +53,7 @@ const ContextProvider = ({children}) => {
       stock:8
    },
    {
-      imagen:'/public/Imagenes/computadoraescritorio2.jpg',
+      imagen:'/public/computadoraescritorio2.jpg',
       nombre:'Computadora de Ecritorio DELL 345',
       precio:325000,
       descripcion:'RAM 16GB-Disco SSD 256GB-Monitor 17"-Lector CD-2 Puertos USB-BlueTooth',
@@ -61,7 +61,7 @@ const ContextProvider = ({children}) => {
       stock:9
    },
    {
-      imagen:'/public/Imagenes/iphone.jpg',
+      imagen:'/public/iphone.jpg',
       nombre:'Telefono Celular IPHONE 13X',
       precio:750000,
       descripcion:'Pantalla Super Retina-3 Camaras 12Mp-128Mb-512Mb memoria',
@@ -69,7 +69,7 @@ const ContextProvider = ({children}) => {
       stock:7
    },
    {
-      imagen:'/public/Imagenes/notebook hp5500.jpg',
+      imagen:'/public/notebook hp5500.jpg',
       nombre:'Notebook HP5500',
       precio:450000,
       descripcion:'16Mb RAM-512GB SSD-Pantalla 15"-Puerto HDMI-2 Puertos USB-Teclado Numerico',
@@ -77,7 +77,7 @@ const ContextProvider = ({children}) => {
       stock:5
    },
    {
-      imagen:'/public/Imagenes/notebooklenovo.jpg',
+      imagen:'/public/notebooklenovo.jpg',
       nombre:'Notebook LENOVO RTY590',
       precio:450000,
       descripcion:'16Mb RAM-512GB SSD-Pantalla 15"-1 Puerto HDMI-2 Puertos USB-Lectora CD',
@@ -85,7 +85,7 @@ const ContextProvider = ({children}) => {
       stock:10
    },
    {
-      imagen:'/public/Imagenes/smartwatchsamsungjpg.jpg',
+      imagen:'/public/smartwatchsamsungjpg.jpg',
       nombre:'Smart Watch Samsung L23',
       precio:120000,
       descripcion:'Pantalla SAMOLEA 1.4"-Monitoreo Salud(frec.Cardiaca,presion arterial)-Conectividad WiFi-GPS-Bluetooth',
@@ -93,7 +93,7 @@ const ContextProvider = ({children}) => {
       stock:4
    }, 
    {
-      imagen:'/public/Imagenes/smartwatchxiaomi.jpg',
+      imagen:'/public/smartwatchxiaomi.jpg',
       nombre:'Smart Watch Xiaomi RT67',
       precio:98000,
       descripcion:'Pantalla Tactil LCD-TFT 1.28"-Monitoreo de Salud-Conectividad WiFi-Bluetooth-GPS',
@@ -101,7 +101,7 @@ const ContextProvider = ({children}) => {
       stock:8
    },
    {
-      imagen:'/public/Imagenes/tabletIphone.jpg',
+      imagen:'/public/tabletIphone.jpg',
       nombre:'Tablet IPad Iphone',
       precio:230000,
       descripcion:'Sist Operativo 16.0-Bateria Larga Duracion-Conectividad WiFi-Bluetooth',
@@ -109,7 +109,7 @@ const ContextProvider = ({children}) => {
       stock:12
    },
    {
-      imagen:'/public/Imagenes/televisor1.jpg',
+      imagen:'/public/televisor1.jpg',
       nombre:'SmartTV 55" LG',
       precio:300000,
       descripcion:'Pantalla Curva-4K-HD-2 Puertos HDMI-Puerto USB',
@@ -117,7 +117,7 @@ const ContextProvider = ({children}) => {
       stock:11
    },
    {
-      imagen:'/public/Imagenes/televisor2.jpg',
+      imagen:'/public/televisor2.jpg',
       nombre:'SmartTV Samsung 42"',
       precio:98000,
       descripcion:'4K-HD-2 Puertos HDMI-2 Puertos USB',
